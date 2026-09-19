@@ -1,427 +1,111 @@
-<!--
-╔════════════════════════════════════════════════════════════════════════════╗
-║  AAYUSH NANDA · PROFILE README                                             ║
-║  Theme: "Friendly Neighborhood SOC Analyst" — Spider-Man × Blue Team       ║
-║                                                                            ║
-║  BEFORE YOU COMMIT: replace every  AAYUSH-USERNAME  with your real         ║
-║  GitHub username (CTRL+H → Replace All). See SETUP.md for the rest.        ║
-╚════════════════════════════════════════════════════════════════════════════╝
--->
+﻿# Aayush Nanda
+
+**Cybersecurity Analyst | Security Operations (SOC) & Threat Defense**  
+*B.Tech Computer Science & Engineering (Cyber Security Specialization) · Sri Sri University*
+
+[![Location](https://img.shields.io/badge/Location-Odisha%2C%20India-0f172a?style=flat-square)](https://github.com/Maverickk96)
+[![Focus](https://img.shields.io/badge/Focus-SOC%20%7C%20Detection%20%7C%20Incident%20Response-0f172a?style=flat-square)](https://github.com/Maverickk96)
+[![Status](https://img.shields.io/badge/Status-Open%20for%20Roles-059669?style=flat-square)](mailto:aayush.n005@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0284c7?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aayushnanda)
+[![Email](https://img.shields.io/badge/Email-Contact-dc2626?style=flat-square&logo=gmail&logoColor=white)](mailto:aayush.n005@gmail.com)
+
+---
+
+### Professional Overview
+
+Defensive security analyst with hands-on security operations center (CSOC) floor experience triaging multi-source security events, investigating IOCs/IOAs, and mapping threat activity to the MITRE ATT&CK framework. Experienced in SIEM correlation, network traffic analysis, ICS/SCADA security simulation, and security automation in Python. Focused on reducing dwell time and false positives through robust detection engineering.
+
+---
+
+### Technical Competencies
+
+| Domain | Tools & Technologies |
+| :--- | :--- |
+| **Security Operations & SIEM** | Wazuh SIEM, Splunk, Suricata IDS, MITRE ATT&CK, Alert Triage (TP/FP/TN/FN), Incident Response Lifecycle |
+| **Network Security & Forensics** | Wireshark, PCAP Deep Packet Inspection, Nmap, Network Segmentation (VLANs, ACLs, DMZ), Cisco Packet Tracer |
+| **Infrastructure & Cloud** | Linux Hardening, Syslog Forensics, AWS (EC2, S3, IAM), Docker, Jenkins CI/CD, Bash |
+| **Security Automation & Scripting** | Python (Automation, Threat Scripting), REST APIs, SQL, MongoDB, VirusTotal API Integration |
+| **Specialized Focus** | ICS/SCADA Security (Modbus/TCP, OpenPLC, FUXA), Threat Intelligence Enrichment |
+
+---
+
+### Experience
+
+#### Cybersecurity Intern · CSOC, Government of Odisha
+*February 2026 – March 2026*
+- Monitored real-time SOC feeds, performing initial alert triage, verification, and false-positive filtering across high-volume telemetry.
+- Correlated multi-source logs using Wazuh SIEM to trace attack vectors and identify actionable Indicators of Compromise (IOCs) and Indicators of Attack (IOAs).
+- Mapped adversary behaviors and detection rules against the MITRE ATT&CK framework to strengthen defensive coverage.
+- Handled end-to-end incident lifecycle management: logging, triage classification, root-cause documentation, and escalation ticketing.
+
+#### Cloud & DevOps Intern · TCS iON (Tata Consultancy Services)
+*December 2024 – February 2025*
+- Automated and maintained containerized Jenkins CI/CD delivery pipelines on AWS (EC2, S3, ECR) with Docker.
+- Reduced build and deployment turnaround times by ~25% through pipeline optimization and reusable workflow definitions.
+- Provisioned reproducible infrastructure environments using AWS CLI and modular configuration scripts.
+
+#### Software Engineering Intern · Web Stack Academy
+*July 2026 – August 2026*
+- Designed and delivered full-stack web architecture with secure API endpoints and robust database schemas.
+- Implemented state validation, authentication handling, and structured data flow on the MERN stack.
+
+---
+
+### Featured Security Projects
+
+#### [AutoPhisNet — ML Phishing URL Detection & Threat Intelligence](https://github.com/Maverickk96)
+- Designed an automated phishing URL detection engine combining lexical feature engineering, machine learning classification, and heuristic rule checks.
+- Integrated the VirusTotal API for real-time threat intelligence enrichment and automated reputation scoring.
+- Built an administrative triage dashboard displaying categorized risk ratings and threat analysis metrics.
+- **Tech Stack:** Python, Scikit-Learn, VirusTotal API, Flask, Threat Intelligence Feeds
+
+#### [ICS-Redsim — SCADA / Industrial Control Systems Attack Simulation Testbed](https://github.com/Maverickk96)
+- Deployed a virtualized industrial automation lab simulating an operational SCADA environment with OpenPLC and FUXA over Modbus/TCP.
+- Analyzed ICS protocol vulnerabilities, simulating unauthorized register tampering, coil manipulation, and sensor spoofing.
+- Configured Suricata IDS and Wazuh SIEM detection rules to capture anomalous industrial traffic and flag operational deviations in real time.
+- **Tech Stack:** OpenPLC, Modbus/TCP, FUXA, Suricata IDS, Wazuh SIEM, Wireshark, Linux
+
+#### [Enterprise Banking Network Security Architecture](https://github.com/Maverickk96)
+- Architected a defense-in-depth enterprise banking network topology using Cisco Packet Tracer.
+- Enforced strict micro-segmentation with isolated VLANs, perimeter Access Control Lists (ACLs), DMZ isolation, and port security.
+- Configured redundant routing protocols and stateful firewall barriers to maintain high availability and prevent lateral threat movement.
+- **Tech Stack:** Cisco Packet Tracer, VLANs, ACLs, STP, OSPF, NAT/PAT, Firewall Policies
+
+#### [Autonomous SOC Alert Triage Engine](https://github.com/Maverickk96)
+- Developed a modular security automation prototype designed to ingest and pre-filter Tier-1 SIEM alerts.
+- Programmed automated context queries against local threat intelligence databases and external reputation feeds to classify true vs. false positives.
+- Generated formatted incident summaries with preliminary MITRE ATT&CK tactic mappings for human analyst review.
+- **Tech Stack:** Python, Wazuh API, Threat Intel APIs, JSON, Security Orchestration
+
+---
+
+### Certifications
+
+- **Microsoft Certified:** Fabric Data Engineer — *Microsoft*
+- **Forward Program:** Leadership & Problem Solving — *McKinsey & Company*
+- **GenAI Financial Chatbot Development** — *BCG X*
+- **Software Engineering & Feature Development** — *Electronic Arts*
+- **Foundations of Artificial Intelligence** — *IBM SkillsBuild*
+- **Data Processing & Visualization using Python** — *University of Michigan*
+
+---
+
+### Contribution Activity
 
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0b3d91,50:1a1a2e,100:e23636&height=220&section=header&text=AAYUSH%20NANDA&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Friendly%20Neighborhood%20SOC%20Analyst&descAlignY=58&descSize=18" width="100%"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=2600&pause=700&color=E23636&background=00000000&center=true&vCenter=true&width=760&lines=%3E+spider-sense+daemon+started...;%3E+listening+on+all+interfaces+%5B0.0.0.0%5D;%3E+SOC+Analyst+%7C+Blue+Teamer+%7C+CTF+Player;%3E+With+great+access+comes+great+responsibility.;%3E+Threat+detected.+Web-shooters+armed." alt="spider-sense"/>
-
-<br/>
-
-```
-      \   /   \   /   \   /   \   /   \   /   \   /   \   /
-    ---o-----o-----o-----o-----o-----o-----o-----o-----o---
-      /   \   /   \   /   \   /   \   /   \   /   \   /   \
-             W E B   O F   D E F E N C E   ·   A C T I V E
-```
-
-<a href="https://github.com/AAYUSH-USERNAME">
-<img src="https://komarev.com/ghpvc/?username=AAYUSH-USERNAME&label=SPIDER-SENSE%20TRIGGERS&color=e23636&style=for-the-badge"/></a>
-<img src="https://img.shields.io/badge/TEAM-BLUE-0b3d91?style=for-the-badge&logo=shield&logoColor=white"/>
-<img src="https://img.shields.io/badge/STATUS-PATROLLING-e23636?style=for-the-badge"/>
-<a href="mailto:aayush.nanda14@gmail.com">
-<img src="https://img.shields.io/badge/SIGNAL-OPEN-00ff9f?style=for-the-badge&logo=maildotru&logoColor=black"/></a>
-
-</div>
-
----
-
-## `[ 01 ]` &nbsp; 🕷️ &nbsp; WHOAMI
-
-```console
-aayush@web-slinger:~$ sudo ./identify --deep --no-mask
-
-┌───────────────────────────────────────────────────────────────────────────┐
-│  CODENAME     ::  Aayush Nanda                                            │
-│  CIVILIAN ID  ::  B.Tech CSE — Cyber Security Specialization              │
-│  BASE OF OPS  ::  Sri Sri University · Odisha, India                      │
-│  ALIGNMENT    ::  Blue Team (with red-team reconnaissance training)       │
-│  DAY JOB      ::  Alert triage · Log analysis · Incident response         │
-│  NIGHT JOB    ::  Building an Autonomous SOC Analyst Agent                │
-│  WEAKNESS     ::  Unpatched CVEs. Also, deadlines.                        │
-└───────────────────────────────────────────────────────────────────────────┘
-
-aayush@web-slinger:~$ cat /etc/motd
-> Every alert is someone's worst day starting quietly.
-> Catch it before the ticket becomes a headline.
-
-aayush@web-slinger:~$ uptime
-> up since 2023 · 0 unpatched egos · load average: curious, curious, curious
-```
-
----
-
-## `[ 02 ]` &nbsp; 🕸️ &nbsp; SPIDER-SENSE — LIVE THREAT MATRIX
-
-<div align="center">
-
-| SENSOR | DOMAIN | STATUS |
-|:---|:---|:---:|
-| 🔴 **Alert Triage** | TP / FP / FN / TN classification, ticket lifecycle | `ONLINE` |
-| 🔵 **SIEM Correlation** | Wazuh · log aggregators · correlators | `ONLINE` |
-| 🔴 **Network Forensics** | Wireshark · PCAP analysis · Suricata IDS | `ONLINE` |
-| 🔵 **Threat Intel** | IOCs · IOAs · MITRE ATT&CK mapping | `ONLINE` |
-| 🔴 **ICS / OT Security** | Modbus/TCP · OpenPLC · SCADA attack simulation | `ONLINE` |
-| 🔵 **Cloud & DevSecOps** | AWS · Docker · Jenkins · IaC pipelines | `ONLINE` |
-| 🔴 **Offensive Recon** | Network scanning · protocol misuse · spoofing labs | `TRAINING` |
-| 🟣 **AI × Security** | Autonomous triage agents · ML phishing detection | `BUILDING` |
-
-</div>
-
----
-
-## `[ 03 ]` &nbsp; 🎯 &nbsp; WEB-SHOOTERS — THE ARSENAL
-
-<div align="center">
-
-<h4>🛡️ &nbsp; BLUE TEAM · DETECTION · RESPONSE</h4>
-
-![Wazuh](https://img.shields.io/badge/Wazuh_SIEM-005C8A?style=for-the-badge&logo=wazuh&logoColor=white)
-![Suricata](https://img.shields.io/badge/Suricata_IDS-EE2E24?style=for-the-badge&logo=suricata&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![MITRE](https://img.shields.io/badge/MITRE_ATT%26CK-C8102E?style=for-the-badge&logo=mitre&logoColor=white)
-![VirusTotal](https://img.shields.io/badge/VirusTotal-394EFF?style=for-the-badge&logo=virustotal&logoColor=white)
-![Splunk](https://img.shields.io/badge/Log_Analysis-000000?style=for-the-badge&logo=splunk&logoColor=white)
-
-<h4>⚔️ &nbsp; RED TEAM · RECON · CTF</h4>
-
-![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white)
-![Burp](https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white)
-![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)
-![HackTheBox](https://img.shields.io/badge/Hack_The_Box-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)
-
-<h4>🌐 &nbsp; NETWORK · INFRASTRUCTURE</h4>
-
-![Cisco](https://img.shields.io/badge/Cisco_Packet_Tracer-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=for-the-badge&logo=openvpn&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
-
-<h4>💻 &nbsp; CODE · DATA</h4>
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Cassandra](https://img.shields.io/badge/Cassandra-1287B1?style=for-the-badge&logo=apachecassandra&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-
-</div>
-
----
-
-## `[ 04 ]` &nbsp; 📼 &nbsp; PATROL LOG — OPERATIONS HISTORY
-
-```log
-╭──────────────────────────────────────────────────────────────────────────╮
-│  tail -f /var/log/career.log                                             │
-╰──────────────────────────────────────────────────────────────────────────╯
-
-[2026-07 → 2026-08]  WSA (Web Stack Academy)        ▸ MERN Stack Intern
-  ├─ Shipped "Food Genie" — AI-powered food ordering app on the MERN stack
-  ├─ MongoDB schema design + database management end to end
-  └─ Full-stack delivery workflow, from API layer to deployed UI
-
-[2026-02 → 2026-03]  CSOC · Govt. of Odisha        ▸ Cybersecurity Intern  ⭐
-  ├─ Live SOC floor: alert triage + real-time incident monitoring
-  ├─ IOCs / IOAs · MITRE ATT&CK · Incident Response & Recovery lifecycle
-  ├─ SIEM architecture — log aggregators, correlators, multi-source analysis
-  ├─ Alert verdicts via TP / FP / FN / TN classification
-  └─ Incident ticketing: raise → document → escalate → report → health check
-
-[2024-12 → 2025-02]  TCS iON · Tata Consultancy    ▸ Learning Intern
-  ├─ Containerized Jenkins CI/CD pipeline on Docker + AWS
-  ├─ EC2 · S3 · ECR integration → ~25% faster build & deploy cycles
-  ├─ IaC provisioning via AWS CLI + custom scripts (reproducible envs)
-  ├─ Automated testing, rollback strategies, monitoring dashboards
-  └─ Full architecture documentation for clean team handover
-
-[2025-02 → 2025-05]  GAO Tek Inc                   ▸ HR & Digital Marketing Intern
-  ├─ Recruitment support, onboarding coordination, employee engagement
-  ├─ SEO, content creation, social media for brand visibility
-  └─ Cross-functional remote collaboration under async constraints
-
-> EOF — log stream live, new entries incoming
-```
-
----
-
-## `[ 05 ]` &nbsp; 🦾 &nbsp; THE WEB — DEPLOYED PROJECTS
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🎣 &nbsp;AutoPhisNet
-**`ML Phishing URL Detection System`**
-
-<img src="https://img.shields.io/badge/ML-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Threat_Intel-394EFF?style=flat-square&logo=virustotal&logoColor=white"/> <img src="https://img.shields.io/badge/Dashboard-E23636?style=flat-square"/>
-
-A spider-sense for the browser bar. Combines ML classification, rule-based risk scoring and live threat intel.
-
-```diff
-+ Engineered URL security features for classification
-+ Brand impersonation detection engine
-+ VirusTotal threat-intel enrichment pipeline
-+ Risk dashboard + inline URL warning interface
-! Validated against legitimate vs. simulated phishing sets
-```
-
-</td>
-<td width="50%" valign="top">
-
-### 🏭 &nbsp;ICS-Redsim
-**`SCADA/ICS Attack Simulation Framework`**
-
-<img src="https://img.shields.io/badge/ICS%2FOT-EE2E24?style=flat-square"/> <img src="https://img.shields.io/badge/Wazuh-005C8A?style=flat-square&logo=wazuh&logoColor=white"/> <img src="https://img.shields.io/badge/Suricata-0B3D91?style=flat-square"/>
-
-A full virtual industrial-control lab where red hits and blue watches.
-
-```diff
-+ OpenPLC + FUXA + Modbus/TCP environment
-+ Suricata IDS · Wazuh SIEM · Wireshark stack
-! Simulated scanning, Modbus misuse, sensor spoofing
-+ Real-time traffic analysis & alert triage loop
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🏦 &nbsp;Bank Network Security Design
-**`Cisco Packet Tracer`**
-
-<img src="https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white"/> <img src="https://img.shields.io/badge/Defense_in_Depth-0B3D91?style=flat-square"/>
-
-Enterprise topology built like a vault, not a fence.
-
-```diff
-+ VLAN segmentation · ACLs · firewalls · DMZ
-+ Port security + redundant routing for high availability
-+ Hardened router/switch configuration throughout
-```
-
-</td>
-<td width="50%" valign="top">
-
-### 🔐 &nbsp;Secure VPN Deployment
-**`OpenVPN on AWS`**
-
-<img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/> <img src="https://img.shields.io/badge/AES--256-E23636?style=flat-square"/>
-
-Encrypted remote access, built and validated end to end.
-
-```diff
-+ OpenVPN Access Server on AWS EC2
-+ AES-256 / RSA / TLS with certificate-based auth
-+ Cross-platform access + performance validation
-```
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-### 🤖 &nbsp; AUTONOMOUS SOC ANALYST AGENT
-
-<img src="https://img.shields.io/badge/STATUS-IN_DEVELOPMENT-e23636?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/STACK-AI_%C3%97_SECURITY-0b3d91?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/GOAL-TIER_1_AUTOMATION-00ff9f?style=for-the-badge"/>
-
-```python
-while True:
-    alert = siem.next_alert()
-    verdict = agent.triage(alert, context=threat_intel, framework=MITRE_ATTACK)
-    if verdict.is_true_positive:
-        ticket = soc.escalate(alert, evidence=verdict.chain)
-    else:
-        soc.close(alert, reason=verdict.rationale)
-    # goal: give human analysts back the hours that machines can spend
-```
-
-*Automating the triage loop so analysts spend their attention on the alerts that actually matter.*
-
-</div>
-
----
-
-## `[ 06 ]` &nbsp; 🕹️ &nbsp; PAC-MAN EATS MY COMMITS
-
-<div align="center">
-
-> *Every dot is a commit. Every commit is a patch, a detection rule, or a 3 a.m. idea.*
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AAYUSH-USERNAME/AAYUSH-USERNAME/output/pacman-contribution-graph-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AAYUSH-USERNAME/AAYUSH-USERNAME/output/pacman-contribution-graph.svg"/>
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/AAYUSH-USERNAME/AAYUSH-USERNAME/output/pacman-contribution-graph.svg"/>
-</picture>
-
-<br/><br/>
-
-### 🐍 &nbsp; ...AND THE SNAKE CLEANS UP AFTER HIM
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AAYUSH-USERNAME/AAYUSH-USERNAME/output/snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AAYUSH-USERNAME/AAYUSH-USERNAME/output/snake.svg"/>
-  <img alt="snake contribution graph" src="https://raw.githubusercontent.com/AAYUSH-USERNAME/AAYUSH-USERNAME/output/snake.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Maverickk96/Maverickk96/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Maverickk96/Maverickk96/output/pacman-contribution-graph.svg" />
+  <img alt="Pac-Man Contribution Graph" src="https://raw.githubusercontent.com/Maverickk96/Maverickk96/output/pacman-contribution-graph.svg" width="100%" />
 </picture>
 
 </div>
 
 ---
 
-## `[ 07 ]` &nbsp; 📈 &nbsp; ACTIVITY GRAPH — THE PATROL ROUTE
+### Connect
 
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AAYUSH-USERNAME&bg_color=0d1117&color=e23636&line=0b3d91&point=ffffff&area_color=e23636&area=true&hide_border=true&custom_title=Commit%20Activity%20%C2%B7%20Last%2031%20Days" width="100%"/>
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=AAYUSH-USERNAME&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8"/>
-
-</div>
-
----
-
-## `[ 08 ]` &nbsp; 🚩 &nbsp; CTF · LABS · CONTINUOUS TRAINING
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="25%">
-
-**🩸 BLUE TEAM**
-
-Log analysis<br/>
-SIEM tuning<br/>
-IR playbooks<br/>
-Threat hunting
-
-</td>
-<td align="center" width="25%">
-
-**🕵️ FORENSICS**
-
-PCAP dissection<br/>
-Artifact recovery<br/>
-Timeline building<br/>
-Memory triage
-
-</td>
-<td align="center" width="25%">
-
-**🌐 NETWORK**
-
-Protocol abuse<br/>
-VLAN / ACL design<br/>
-VPN & crypto<br/>
-Recon & scanning
-
-</td>
-<td align="center" width="25%">
-
-**🐧 LINUX**
-
-Hardening<br/>
-Privesc paths<br/>
-Bash automation<br/>
-Syslog forensics
-
-</td>
-</tr>
-</table>
-
-```bash
-aayush@web-slinger:~$ ./training_loop.sh --forever
-
-  [✓] read the writeup        [✓] break the box
-  [✓] rebuild it defended     [✓] write the detection rule
-  [✓] ship it to the lab      [↻] repeat until it's muscle memory
-```
-
-</div>
-
----
-
-## `[ 09 ]` &nbsp; 📜 &nbsp; CREDENTIALS VAULT
-
-<div align="center">
-
-| 🏅 CREDENTIAL | ISSUER |
-|:---|:---|
-| Microsoft Fabric Data Engineer | **Microsoft** |
-| Forward Program | **McKinsey & Company** |
-| GenAI Financial Chatbot Development | **BCG X** |
-| Software Engineering & Feature Development | **Electronic Arts** |
-| Foundations of Artificial Intelligence | **IBM SkillBuild** · Finnish Govt. Initiative |
-| Data Processing & Visualization using Python | **University of Michigan** |
-
-</div>
-
----
-
-## `[ 10 ]` &nbsp; 🎙️ &nbsp; OUT OF THE SUIT
-
-```yaml
-organization: SSUIMUN · Sri Sri University
-tenure: Oct 2023 – Oct 2025
-progression:
-  - Under Secretary General (USG)
-  - Head of Social Media & Content      # promoted on performance
-impact:
-  - Led social media strategy & content for large-scale conferences
-  - Ran event logistics, infra coordination, on-ground operations
-  - Mentored sub-teams, delegated tasks, kept the floor running
-transferable_to_soc:
-  - staying calm while 40 things happen at once
-  - writing so the next person understands it instantly
-```
-
----
-
-<div align="center">
-
-```
-      \   /   \   /   \   /   \   /   \   /   \   /   \   /
-    ---o-----o-----o-----o-----o-----o-----o-----o-----o---
-      /   \   /   \   /   \   /   \   /   \   /   \   /   \
-```
-
-### 🕸️ &nbsp; "With great power comes great responsibility."
-*— the original rule of privileged access*
-
-<br/>
-
-## 📡 &nbsp; OPEN A CHANNEL
-
-[![Email](https://img.shields.io/badge/aayush.nanda14@gmail.com-E23636?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aayush.nanda14@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0B3D91?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AAYUSH-USERNAME)
-
-<br/>
-
-`If you're reading this, my spider-sense already flagged you. Say hi anyway. 🕷️`
-
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:e23636,50:1a1a2e,100:0b3d91&height=140&section=footer" width="100%"/>
-
-</div>
+- **Email:** [aayush.n005@gmail.com](mailto:aayush.n005@gmail.com)
+- **LinkedIn:** [linkedin.com/in/aayushnanda](https://www.linkedin.com/in/aayushnanda)
+- **GitHub:** [github.com/Maverickk96](https://github.com/Maverickk96)

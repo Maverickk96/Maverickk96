@@ -1,4 +1,4 @@
-name: 🕹️ Generate Contribution Games (Pac-Man + Snake)
+name: Generate Contribution Graphs (Pac-Man & Snake)
 
 # Both games are generated in ONE workflow and pushed in ONE commit.
 # Why: the publish step replaces the contents of the `output` branch, so two
