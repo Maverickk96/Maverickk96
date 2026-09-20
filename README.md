@@ -6,7 +6,7 @@
 [![Location](https://img.shields.io/badge/Location-Odisha%2C%20India-0f172a?style=flat-square)](https://github.com/Maverickk96)
 [![Focus](https://img.shields.io/badge/Focus-SOC%20%7C%20Detection%20%7C%20Incident%20Response-0f172a?style=flat-square)](https://github.com/Maverickk96)
 [![Status](https://img.shields.io/badge/Status-Open%20for%20Roles-059669?style=flat-square)](mailto:aayush.n005@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0284c7?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aayushnanda)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0284c7?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aayush-nanda)
 [![Email](https://img.shields.io/badge/Email-Contact-dc2626?style=flat-square&logo=gmail&logoColor=white)](mailto:aayush.n005@gmail.com)
 
 ---
